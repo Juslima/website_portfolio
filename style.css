@@ -294,9 +294,7 @@ section {
     align-items: center;
     flex-direction: column;
     gap: 2rem;
-    background: url('home.jpg') no-repeat;
-    background-size: cover;
-    background-position: center;
+    background: var(--second-bg-color);
 }
 
 .heading {
