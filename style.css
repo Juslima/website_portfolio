@@ -11,6 +11,17 @@
     font-family: 'Poppins', sans-serif;
 }
 
+.name {
+    font-size: 2rem; /* Default font size */
+}
+
+@media (max-width: 768px) {
+    .name {
+        font-size: 1.5rem; /* Smaller font size for smaller screens */
+    }
+}
+
+
 :root {
     --bg-color: #081b29;
     --second-bg-color: #112e42;
