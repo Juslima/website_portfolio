@@ -11,16 +11,25 @@
     font-family: 'Poppins', sans-serif;
 }
 
+/* Prevent wrapping for Juliana Walser */
 .name {
-    font-size: 2rem; /* Default font size */
+    white-space: nowrap;
+    display: inline-block;
 }
 
+/* Prevent wrapping for Finance & Data Consultant */
+.title {
+    white-space: nowrap; /* Prevent wrapping */
+    display: inline-block; /* Keep inline behavior */
+    font-size: 1.8rem; /* Adjust font size as needed */
+}
+
+/* Optional: Adjust font size for smaller screens */
 @media (max-width: 768px) {
-    .name {
+    .title {
         font-size: 1.5rem; /* Smaller font size for smaller screens */
     }
 }
-
 
 :root {
     --bg-color: #081b29;
